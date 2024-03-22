@@ -1,0 +1,22 @@
+/* searchBoxStyles.css */
+.search-box {
+    width: 241px;
+    height: 38px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: rgb(33, 37, 41);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 4px;
+    padding: 6px 12px;
+  }
+  
+  .search-box:focus {
+    outline: none;
+    border-color: #7952b3;
+    box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
+  }
+  
+  .search-box:disabled {
+    background-color: rgb(233, 236, 239);
+  }
